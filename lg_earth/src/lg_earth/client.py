@@ -41,10 +41,13 @@ class Client:
         window_names = {
             '/opt/google/earth/ec': 'Google Earth EC',
             '/opt/google/earth/free': 'Google Earth',
+            '/opt/google/earth/pro': 'Google Earth',
+            
         }
         window_classes = {
             '/opt/google/earth/ec': 'Google Earth EC',
             '/opt/google/earth/free': 'Googleearth-bin',
+            '/opt/google/earth/pro': 'Googleearth-bin',
         }
 
         # Skip window management if this window is hidden.
